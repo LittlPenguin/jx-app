@@ -3,17 +3,17 @@
     margin: 0;
     border-collapse: collapse;
     box-sizing: border-box;
-    /* -webkit-tap-highlight-color: transparent; */
+    -webkit-tap-highlight-color: transparent;
 }
 
 input {
-    /* -webkit-appearance: none; */
+    -webkit-appearance: none;
 }
 
 body {
     /* height: 120vh; */
     width: 100%;
-    max-width: 640px;
+    max-width: 700px;
     min-width: 320px;
     font-size: 14px;
     font-family: -apple-system, Helvetica, sans-serif;
@@ -82,7 +82,7 @@ nav {
     position: fixed;
     z-index: 1;
     min-width: 320px;
-    max-width: 640px;
+    max-width: 700px;
     width: 100%;
     overflow: hidden;
 }
@@ -191,7 +191,7 @@ article .lb {
 
 article .lb .imgt {
     width: 100%;
-    background-color: #e24b4b;
+    /* background-color: #e24b4b; */
     height: 312.31px;
     position: relative;
     transition: all 1s;
@@ -205,7 +205,7 @@ article .lb .imgt li {
 article .lb .imgt li img {
     width: 100%;
     min-width: 320px;
-    max-width: 640px;
+    max-width: 700px;
     float: left;
     height: 312.31px;
     position: absolute;
@@ -246,7 +246,7 @@ article .lb .dh li:nth-child(2) {
 article .main {
     position: absolute;
     left: 0;
-    bottom: -129px;
+    bottom: -136px;
     overflow: hidden;
     border-radius: 10px;
 }
