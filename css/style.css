@@ -265,13 +265,14 @@ article .main div img {
     width: 100%;
     position: absolute;
     bottom: -290px;
-    padding-left: 16px;
+    /* padding-left: 16px; */
 }
 
 .navdh a {
     color: #666;
     float: left;
     width: 20%;
+    text-align: center;
 }
 
 .navdh a img {
