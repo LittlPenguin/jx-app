@@ -25,7 +25,7 @@ navLj[1].addEventListener('click', function () {
     location.assign('https://www.bilibili.com/')
 })
 // article
-var index = 0
+var index = -1
 var imgt = document.querySelector('.imgt')
 var dhlb = document.querySelectorAll('.dh-lb')
 var width = 100
